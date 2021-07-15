@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header form-header>
+        <h1>Formulário de cadastro de currículos</h1>
+    </header>
+    <form id="form-cv">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="name">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <p><label for="name">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+            </p>
+            <p><label for="name">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+            </p>
+            <p><label for="name">Endereço</label>
+                <input type="text" name="end" id="end">
+            </p>
+            <p><label for="name">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </p>
+            <p><label for="name">Estado</label>
+                <input type="text" name="estado" id="estado">
+            </p>
+            Tipo: <br>
+            <input type="radio">Casa <br>
+            <input type="radio">Apartamento
+        </fieldset>
+        <fieldset>
+            <legend>Dados do último Emprego</legend>
+            <p>Resumo do Currículo:</p>
+            <textarea name="" id="resumocv" cols="30" rows="6" maxlength="1000" required></textarea>
+            <p>Cargo:</p>
+            <textarea name="cargo" id="cargo" cols="30" rows="3" maxlength="40"></textarea>
+            <p> Descrição do Cargo: </p>
+            <textarea name="" id="" cols="30" rows="6" maxlength="500"></textarea>
+            <p>Data de início:</p> <input type="date" required>
+        </fieldset>
+        <br>
+        <button>Enviar</button>
+        <button>Limpar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
