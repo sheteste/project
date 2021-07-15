@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="GET">
+        <label for="nome-completo">Nome Completo <input type="text" name="nome" id="nome-completo"> </label>
+        <br>
+        <label for="email-completo">E-mail <input type="email" name="emails" id="email-completo"></label>
+        <br>
+        <label for="">Estado onde você mora</label>
+        <select name="estado" id="estado-mora">
+            <option value="am">Manaus</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+        </select>
+        <br><br>
+        <input type="file">
+        <br><br>
+
+        Comidas Favoritas: <br><br>
+        <label for="comida-favorita1"><input type="radio" id="comida-favorita1" name="comida" value="pizza">Pizza</label>
+        <label for="comida-favorita2"><input type="radio" id="comida-favorita2" name="comida" value="sorvete">Sorvete</label>
+        <label for="comida-favorita3"><input type="radio" id="comida-favorita3" name="comida" value="acai">Açaí</label>
+        <label for="comida-favorita4"><input type="radio" id="comida-favorita4" name="comida" value="tacaca">Tacacá</label>
+        <br><br>
+
+        Escreva algo sobre você:
+        <br><br>
+        <textarea name="" id="txt-area" cols="30" rows="5" name="sobre"></textarea>
+        <br>
+        <p>Digite sua senha:
+            <input type="password" id="senha" name="senhaa"><br>
+            <label for="senha"></label><input type="checkbox" id="check" name="checks"> Deseja receber promoções
+            incríveis?<br>
+            <button type="submit">Enviar Formilário</button>
+    </form>
+</body>
+
+</html>
